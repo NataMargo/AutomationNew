@@ -8,9 +8,11 @@ public class SubmitPage extends PageObject {
     public SubmitPage(WebDriver driver) {
         super(driver);
     }
+
     @FindBy(xpath = "//div/h1")
     private WebElement header;
-    public String confirmationHeader(){
+
+    public String confirmationHeader() {
         return header.getText();
     }
 

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd5fe051-e49c-4caf-be19-81a839887223" name="Default Changelist" comment="" />
+    <list default="true" id="fd5fe051-e49c-4caf-be19-81a839887223" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/CheckBoxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/CheckBoxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/CheckButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/CheckButtonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/DropDownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/DropDownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/SubmitPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/SubmitPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestButtonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestCheckBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestCheckBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestDropDownMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestDropDownMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestWebFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/TestWebFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_object_model_practice/WebFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_object_model_practice/WebFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AutomationPractice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/CheckButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/CheckButtonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/DropDownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/DropDownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/PageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/PageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/SubmitPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/SubmitPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/TestButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_object_model_practice/TestButtonPage.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +35,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XtTJRBovZCLSsUWcY7VfM48ZUa" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -49,38 +72,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestButtonPage.checkDropDown">
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cucumber_practice" />
-      <option name="MAIN_CLASS_NAME" value="cucumber_practice.Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnerMy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cucumber2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Cucumber2" />
-      <option name="MAIN_CLASS_NAME" value="Cucumber2.RunnerMy" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestButtonPage.checkDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestDropDownMenu">
+    <configuration name="TestCheckBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
@@ -89,25 +82,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="page_object_model_practice" />
-      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestButtonPage" />
-      <option name="METHOD_NAME" value="checkDropDown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWebFormPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="page_object_model_practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="page_object_model_practice" />
-      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestWebFormPage" />
+      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestCheckBoxes" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -115,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWebFormPage.sendEmptyWebForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCheckBoxes.checkBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +99,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="page_object_model_practice" />
-      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestWebFormPage" />
-      <option name="METHOD_NAME" value="sendEmptyWebForm" />
+      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestCheckBoxes" />
+      <option name="METHOD_NAME" value="checkBoxes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDropDownMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_object_model_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page_object_model_practice" />
+      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestDropDownMenu" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDropDownMenu.checkDropDownMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_object_model_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page_object_model_practice" />
+      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestDropDownMenu" />
+      <option name="METHOD_NAME" value="checkDropDownMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDropDownMenu.clickDropDownButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_object_model_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page_object_model_practice" />
+      <option name="MAIN_CLASS_NAME" value="page_object_model_practice.TestDropDownMenu" />
+      <option name="METHOD_NAME" value="clickDropDownButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestButtonPage.checkDropDown" />
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="JUnit.RunnerMy" />
-        <item itemvalue="TestNG.TestWebFormPage" />
-        <item itemvalue="TestNG.TestWebFormPage.sendEmptyWebForm" />
+        <item itemvalue="TestNG.TestDropDownMenu" />
+        <item itemvalue="TestNG.TestDropDownMenu.clickDropDownButton" />
+        <item itemvalue="TestNG.TestCheckBoxes" />
+        <item itemvalue="TestNG.TestDropDownMenu.checkDropDownMenu" />
+        <item itemvalue="TestNG.TestCheckBoxes.checkBoxes" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +183,17 @@
       <updated>1581864318885</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutomationPractice$CheckEmailHappyPath_DataProviderTest_CheckCorrectEmail.ic" NAME="CheckEmailHappyPath$DataProviderTest.CheckCorrectEmail Coverage Results" MODIFIED="1582033381299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

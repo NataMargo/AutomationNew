@@ -3,8 +3,6 @@ package page_object_model_practice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
-
 public class TestWebFormPage extends BeforeTesting {
     private final String SUBMIT_PAGE_EXPECTED = "https://formy-project.herokuapp.com/thanks";
     private final String WEB_FORM_EXPECTED = "https://formy-project.herokuapp.com/form";
@@ -33,7 +31,7 @@ public class TestWebFormPage extends BeforeTesting {
         webFormPage.enterEducation("high");
         webFormPage.enterGender("male");
         webFormPage.enterExperience(19);
-        webFormPage.setdate("03/05/2020");
+        webFormPage.setDate("03/05/2020");
         SubmitPage submitPage = webFormPage.submit();
 
         Assert.assertEquals(driver.getCurrentUrl(), SUBMIT_PAGE_EXPECTED, "Submit form is not initialized" + " expected: " + SUBMIT_PAGE_EXPECTED);

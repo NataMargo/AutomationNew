@@ -66,7 +66,7 @@ public class WebFormPage extends PageObject {
         this.job.sendKeys(job);
     }
 
-    void enterGender(String m) {
+    public void enterGender(String m) {
         if (m.equals("male")) {
             this.male.click();
         } else if (m.equals("female")) {
@@ -88,15 +88,15 @@ public class WebFormPage extends PageObject {
     }
 
 
-    public void enterExperience(int a) {
+    public void enterExperience(int experience) {
         this.selectMenu.click();
-        if (a <= 1) {
+        if (experience <= 1) {
             this.opt1.isSelected();
-        } else if (a <= 4 || a > 1) {
+        } else if (experience <= 4 || experience > 1) {
             this.opt2.click();
-        } else if (a <= 9 || a > 4) {
+        } else if (experience <= 9 || experience > 4) {
             this.opt3.click();
-        } else if (a >= 10) {
+        } else if (experience >= 10) {
             this.opt4.click();
         } else {
             this.opt0.click();
@@ -104,7 +104,7 @@ public class WebFormPage extends PageObject {
 
     }
 
-    public void setdate(String date) {
+    public void setDate(String date) {
         this.date.clear();
         this.date.sendKeys(date);
     }

@@ -7,14 +7,26 @@ import org.openqa.selenium.support.FindBy;
 public class CheckBoxesPage extends PageObject {
 
     @FindBy(id = "checkbox-1")
-    static WebElement checkbox_one;
+    private WebElement checkbox_one;
+
 
     @FindBy(id = "checkbox-2")
-    static WebElement checkbox_two;
+    private WebElement checkbox_two;
 
     @FindBy(id = "checkbox-3")
-    static WebElement checkbox_three;
+    private WebElement checkbox_three;
 
+    public WebElement getCheckbox_one() {
+        return checkbox_one;
+    }
+
+    public WebElement getCheckbox_two() {
+        return checkbox_two;
+    }
+
+    public WebElement getCheckbox_three() {
+        return checkbox_three;
+    }
     CheckBoxesPage(WebDriver driver) {
         super(driver);
     }
